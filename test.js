@@ -15,8 +15,6 @@ intBuilder
   .mod(3)                               // 1;
   .get();                               // -> 1;
 
-
-
 let strBuilder = new StringBuilder('Hello'); // 'Hello';
 console.log("\nStringBuilder:")
 strBuilder
