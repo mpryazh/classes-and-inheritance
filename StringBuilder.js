@@ -1,4 +1,4 @@
-import { Builder } from "./builder.js";
+import { Builder } from "./Builder.js";
 
 function StringBuilder(str = "") {
   Builder.call(this, str);
@@ -30,7 +30,7 @@ StringBuilder.prototype.sub = function (from, n) {
 };
 
 StringBuilder.prototype.remove = function remove(str) {
-  let index = this.x.indexOf(str);
+  const index = this.x.indexOf(str);
   if (index !== -1) {
     this.x = this.x.slice(0, index) + this.x.slice(index + str.length);
     remove.call(this, str);
