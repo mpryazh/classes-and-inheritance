@@ -1,5 +1,5 @@
-import { IntBuilder } from "/IntBuilder.js";
-import { StringBuilder } from "/StringBuilder.js";
+import { IntBuilder } from "./intBuilder.js";
+import { StringBuilder } from "./stringBuilder.js";
 
 let min = 10;
 let max = 100;
