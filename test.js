@@ -1,11 +1,11 @@
 import { IntBuilder } from "./IntBuilder.js";
 import { StringBuilder } from "./StringBuilder.js";
 
-let min = 10;
-let max = 100;
+const min = 10;
+const max = 100;
 console.log(`Random number between ${min} and ${max}: ` + IntBuilder.random(10, 100));
 
-let intBuilder = new IntBuilder(10); // 10;
+const intBuilder = new IntBuilder(10); // 10;
 console.log("\nIntBuilder:");
 intBuilder
   .plus(2, 3, 2).get()      // 17;
@@ -14,7 +14,7 @@ intBuilder
   .divide(4).get()          // 7;
   .mod(3).get();            // 1;
 
-let strBuilder = new StringBuilder('Hello'); // 'Hello';
+const strBuilder = new StringBuilder('Hello'); // 'Hello';
 console.log("\nStringBuilder:")
 strBuilder
   .plus(' all', '!').get()  // 'Hello all!'
